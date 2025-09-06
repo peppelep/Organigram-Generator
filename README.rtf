@@ -1,16 +1,29 @@
-Dopo aver eseguito il main , inserire il percorso del file contenente il database relativo all\'92Organigramma che vogliamo gestire .(Due esempi di database sono contenuti all\'92interno della cartella \'93Progetto_Organigramma_Aziendale\'94, e sono : progetto.db e progetto2.db).\
-A questo punto verr\'e0 visualizzato l\'92Organigramma , e cliccando sulle varie caselle riusciamo a manipolarlo . \
-Le operazioni consentite sono : \
-=============================================\
-1. Clic destro su una casella per rimuoverla.\
-2. Clic sinistro su una casella per:\
-   - Visualizzare i ruoli associati ad una casella.\
-   - Aggiungere un ruolo ad una casella.\
-   - Rimuovere un ruolo da una casella.\
-   - Creare una nuova unit\'e0 o dipendente(ovviamente solo nelle caselle unit\'e0).\
-3. Nella console di output a destra puoi:\
-   - Inserire un ruolo da cercare e premere il pulsante 'Cerca'.\
-   - Visualizzare le unit\'e0 organizzative associate ad un ruolo cercato.\
-4. Quando si chiude la finestra, i dati dell'organigramma vengono salvati nel database e su file organigramma.ser.\
-=============================================\
-}
+# Organigram Generator
+
+## Istruzioni per l’uso
+
+Dopo aver eseguito il file `main`, inserire il percorso del file contenente il database relativo all’organigramma da gestire.  
+Due esempi di database sono già inclusi nella cartella `Progetto_Organigramma_Aziendale`:
+- `progetto.db`
+- `progetto2.db`
+
+A questo punto verrà visualizzato l’organigramma. Cliccando sulle varie caselle è possibile interagire con esso.
+
+### Operazioni consentite
+
+1. **Rimozione di una casella**  
+   - Fare clic destro su una casella per rimuoverla.
+
+2. **Gestione dei ruoli e delle unità**  
+   - Fare clic sinistro su una casella per:  
+     - Visualizzare i ruoli associati alla casella.  
+     - Aggiungere un nuovo ruolo alla casella.  
+     - Rimuovere un ruolo dalla casella.  
+     - Creare una nuova unità o dipendente (disponibile solo nelle caselle di tipo unità).
+
+3. **Ricerca e visualizzazione nella console di output**  
+   - Inserire un ruolo da cercare e premere il pulsante **Cerca**.  
+   - Visualizzare le unità organizzative associate al ruolo cercato.
+
+4. **Salvataggio dei dati**  
+   - Alla chiusura della finestra, i dati dell’organigramma vengono salvati automaticamente nel database e nel file `organigramma.ser`.
